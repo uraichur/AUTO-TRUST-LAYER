@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Auto Trust Layer is a collaborative digital trust infrastructure for verified vehicle lifecycle records." />
+  <meta name="keywords" content="Auto Trust Layer, vehicle lifecycle records, vehicle trust infrastructure, verified vehicle records" />
+  <meta name="author" content="Auto Trust Layer" />
+  <meta property="og:title" content="Auto Trust Layer — Coming Soon" />
+  <meta property="og:description" content="Digital Trust Infrastructure for Vehicle Lifecycle Records." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.autotrustlayer.com" />
+  <title>Auto Trust Layer — Coming Soon</title>
+  <style>
+    :root{--bg:#020617;--panel:#0f172a;--line:rgba(255,255,255,.1);--text:#f8fafc;--muted:#94a3b8;--green:#34d399;--greenSoft:rgba(52,211,153,.1);--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at top,rgba(52,211,153,.16),transparent 38%),var(--bg);line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(calc(100% - 32px),var(--max));margin:0 auto}
+    header{border-bottom:1px solid var(--line);backdrop-filter:blur(16px);background:rgba(2,6,23,.72);position:sticky;top:0;z-index:20}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px}.mark{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-weight:900;font-size:13px;color:var(--green);border:1px solid rgba(52,211,153,.3);background:var(--greenSoft)}.brand-title{font-weight:800;letter-spacing:-.02em}.brand-subtitle{color:#64748b;font-size:12px}.pilot{text-align:right}.pilot strong{display:block;color:var(--green);font-size:12px;letter-spacing:.16em;text-transform:uppercase}.pilot span{color:#64748b;font-size:12px}
+    .hero{min-height:760px;display:grid;grid-template-columns:1.08fr .92fr;gap:72px;align-items:center;padding:86px 0}.chip{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(52,211,153,.3);background:var(--greenSoft);border-radius:999px;padding:9px 14px;color:var(--green);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.dot{width:8px;height:8px;border-radius:999px;background:var(--green);box-shadow:0 0 24px rgba(52,211,153,.85)}.eyebrow{margin-top:28px;color:var(--green);font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}h1{margin:18px 0 0;max-width:780px;font-size:clamp(48px,7vw,82px);line-height:.98;letter-spacing:-.055em}.lead{max-width:720px;margin-top:28px;color:#cbd5e1;font-size:20px;line-height:1.75}.quote{margin-top:30px;padding-left:20px;border-left:2px solid var(--green)}.quote p{margin:0;color:#e2e8f0}.quote p+p{margin-top:12px;color:#bbf7d0;font-weight:800}.status-line{margin-top:22px;color:#64748b;font-size:14px}
+    .trust-panel{position:relative;border:1px solid var(--line);border-radius:26px;padding:24px;background:rgba(255,255,255,.055);box-shadow:0 26px 80px rgba(0,0,0,.34)}.trust-panel:before{content:"";position:absolute;inset:-35px;border-radius:999px;background:rgba(52,211,153,.1);filter:blur(52px);z-index:-1}.panel-top{border-radius:18px;padding:20px;border:1px solid rgba(52,211,153,.22);background:var(--greenSoft)}.panel-top small{color:var(--green);font-weight:900;letter-spacing:.16em;text-transform:uppercase}.panel-top h2{margin:10px 0 0;font-size:26px;line-height:1.28}.contributors{display:grid;gap:12px;margin-top:16px}.contributor{display:flex;gap:14px;padding:16px;border-radius:17px;border:1px solid var(--line);background:rgba(2,6,23,.72)}.initials{min-width:44px;height:44px;display:grid;place-items:center;border-radius:12px;color:var(--green);font-size:12px;font-weight:900;border:1px solid rgba(52,211,153,.2);background:var(--greenSoft)}.contributor h3{margin:0;font-size:16px}.contributor p{margin:4px 0 0;color:var(--muted);font-size:14px}.badges{margin-top:14px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.badge{padding:12px 10px;border-radius:12px;text-align:center;font-size:12px;font-weight:700;color:#cbd5e1;border:1px solid var(--line);background:rgba(2,6,23,.72)}
+    .section{padding:84px 0}.section-alt{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.025)}.section-kicker{color:var(--green);font-size:13px;font-weight:900;letter-spacing:.18em;text-transform:uppercase}.section h2{max-width:780px;margin:14px 0 0;font-size:clamp(34px,5vw,48px);line-height:1.1;letter-spacing:-.035em}.section-copy{max-width:760px;margin-top:20px;color:#cbd5e1;font-size:18px;line-height:1.75}.principles{margin-top:42px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.principle{padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.principle .num{color:var(--green);font-weight:900}.principle h3{margin:16px 0 0;font-size:20px}.principle p{margin:10px 0 0;color:var(--muted);font-size:14px;line-height:1.7}
+    .pilot-card{display:grid;grid-template-columns:1.25fr .75fr;gap:32px;align-items:center;padding:42px;border-radius:26px;border:1px solid rgba(52,211,153,.23);background:linear-gradient(135deg,rgba(52,211,153,.14),rgba(255,255,255,.03))}.pilot-card h2{margin-top:12px}.contact-box{border:1px solid var(--line);border-radius:18px;background:rgba(2,6,23,.65);padding:22px}.contact-row+.contact-row{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}.contact-label{color:#64748b;font-size:11px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}.contact-value{display:block;margin-top:6px;font-weight:800;word-break:break-word}
+    footer{border-top:1px solid var(--line);padding:38px 0;color:#64748b}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-end}.footer-grid strong{color:var(--text);font-size:18px}.footer-grid p{margin:6px 0 0;font-size:14px}.footer-right{text-align:right}.footer-right a{display:block}
+    @media(max-width:900px){.hero,.pilot-card{grid-template-columns:1fr}.hero{min-height:auto;gap:50px}.principles{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.pilot{display:none}.hero{padding:62px 0}h1{font-size:48px}.lead{font-size:18px}.principles{grid-template-columns:1fr}.pilot-card{padding:26px}.footer-grid{display:block}.footer-right{margin-top:24px;text-align:left}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap nav"><a class="brand" href="/" aria-label="Auto Trust Layer home"><div class="mark">ATL</div><div><div class="brand-title">Auto Trust Layer</div><div class="brand-subtitle">Digital Trust Infrastructure</div></div></a><div class="pilot"><strong>Pilot Programme</strong><span>Launching Soon</span></div></div></header>
+  <main>
+    <section class="wrap hero">
+      <div>
+        <div class="chip"><span class="dot"></span>Pilot Programme — Launching Soon</div>
+        <div class="eyebrow">Digital Trust Infrastructure for Vehicle Lifecycle Records</div>
+        <h1>Trust around every vehicle, built together.</h1>
+        <p class="lead">Auto Trust Layer is a collaborative digital trust infrastructure where authenticated vehicle owners, authorised service stations and ecosystem participants contribute verifiable events to build a continuously evolving layer of trust around every vehicle.</p>
+        <div class="quote"><p>Trust is not created by a single organisation. It emerges when every participant contributes authenticated information to a common layer of truth.</p><p>Every authenticated interaction strengthens the trust layer surrounding a vehicle throughout its lifecycle.</p></div>
+        <p class="status-line">Currently under controlled pilot deployment.</p>
+      </div>
+      <div class="trust-panel">
+        <div class="panel-top"><small>One evolving trust layer</small><h2>One vehicle. Many verified contributors. One trusted history.</h2></div>
+        <div class="contributors">
+          <div class="contributor"><div class="initials">OW</div><div><h3>Vehicle Owner</h3><p>Verifies ownership, gives consent and controls final acceptance into the vehicle vault.</p></div></div>
+          <div class="contributor"><div class="initials">SA</div><div><h3>Service Advisor</h3><p>Records intake evidence, odometer readings, complaints and service recommendations.</p></div></div>
+          <div class="contributor"><div class="initials">FM</div><div><h3>Floor Manager</h3><p>Certifies workshop completion, technical outcomes and vehicle health observations.</p></div></div>
+          <div class="contributor"><div class="initials">SC</div><div><h3>Verified Service Centre</h3><p>Adds institutional provenance and accountability to every workshop event.</p></div></div>
+        </div>
+        <div class="badges"><div class="badge">Verified identity</div><div class="badge">Consent driven</div><div class="badge">Tamper evident</div><div class="badge">Auditable history</div></div>
+      </div>
+    </section>
+    <section class="section section-alt"><div class="wrap"><div class="section-kicker">The Auto Trust Layer</div><h2>A common foundation for trusted vehicle lifecycle information.</h2><p class="section-copy">The vehicle itself does not create trust. Trust is accumulated through authenticated actions performed by independent participants over time.</p><div class="principles">
+      <article class="principle"><div class="num">01</div><h3>Verified identity</h3><p>Every important action is attributable to an authenticated human or institution.</p></article>
+      <article class="principle"><div class="num">02</div><h3>Verified provenance</h3><p>Every event records who created it, where it originated and when it occurred.</p></article>
+      <article class="principle"><div class="num">03</div><h3>Owner-controlled trust</h3><p>The verified owner reviews and approves completed records before final vault acceptance.</p></article>
+      <article class="principle"><div class="num">04</div><h3>Lifecycle continuity</h3><p>Trusted events accumulate around the vehicle from ownership through service and eventual end of life.</p></article>
+    </div></div></section>
+    <section class="section"><div class="wrap"><div class="pilot-card"><div><div class="section-kicker">Controlled Pilot Programme</div><h2>Auto Trust Layer is being prepared for controlled pilot deployment.</h2><p class="section-copy">We are validating real workflows with selected vehicle owners and authorised service centres before wider public availability.</p><p><strong>Public availability will be announced soon.</strong></p></div><div class="contact-box">
+      <div class="contact-row"><div class="contact-label">Website</div><a class="contact-value" href="https://www.autotrustlayer.com">www.autotrustlayer.com</a></div>
+      <div class="contact-row"><div class="contact-label">Email</div><a class="contact-value" href="mailto:info@autotrustlayer.com">info@autotrustlayer.com</a></div>
+      <div class="contact-row"><div class="contact-label">Status</div><div class="contact-value" style="color:var(--green)">Controlled Pilot Programme</div></div>
+    </div></div></div></section>
+  </main>
+  <footer><div class="wrap footer-grid"><div><strong>Auto Trust Layer™</strong><p>Digital Trust Infrastructure for Vehicle Lifecycle Records</p><p>MSME (Udyam) Registered Enterprise</p></div><div class="footer-right"><a href="https://www.autotrustlayer.com">www.autotrustlayer.com</a><a href="mailto:info@autotrustlayer.com">info@autotrustlayer.com</a><p>© 2026 AUTO TRUST LAYER. All Rights Reserved.</p></div></div></footer>
+</body>
+</html>
